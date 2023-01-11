@@ -1,34 +1,39 @@
 #navbarbutton {
     background-color: #656565;
 }
-
 .picture_style {
     padding-left: 0px;
     padding-right: 0px;
     padding-top: 0px;
     padding-bottom: 0px;
 }
-
 .obj_center {
     text-align: center;
 }
-
 .card {
     width: 20rem;
 }
-
 #toppadder {
     padding-top: 75px;
 }
-
 #toppadder {
     padding-top: 25px;
 }
-
 .justify-content-center {
     padding-top: 25px;
 }
-
 .h2{
     text-align: center;
+}
+#offcanvasNavbar {
+    max-height: 629px;
+}
+.justify-content-center {
+    padding-top: 25px;
+}
+.navbar-brand {
+    text-align: center;
+}
+.listitem {
+    margin-bottom: 0px;
 }
