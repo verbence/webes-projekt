@@ -40,3 +40,22 @@
 h5 {
     font-weight: 400;
 }
+.h1{
+    text-align: center;
+}
+
+#fooldalkep{
+    float: right;
+    width: 500px;
+    margin-left: 10px;
+
+}
+
+.tertalom_index{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#text{
+    font-size: 20px;
+}
