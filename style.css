@@ -59,3 +59,10 @@ h5 {
 #text{
     font-size: 20px;
 }
+#faanyagkartya{
+    float: right;
+
+    width: 500px;
+
+    margin-left: 10px;
+}
