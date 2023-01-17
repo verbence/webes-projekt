@@ -36,33 +36,15 @@
 }
 .listitem {
     margin-bottom: 0px;
-}
-h5 {
     font-weight: 400;
 }
-.h1{
-    text-align: center;
+.cardtexttop {
+    margin-bottom: 0px;
+    margin-top: 7px;
 }
-
-#fooldalkep{
-    float: right;
-    width: 500px;
-    margin-left: 10px;
-
-}
-
-.tertalom_index{
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-#text{
-    font-size: 20px;
-}
-#faanyagkartya{
-    float: right;
-
-    width: 500px;
-
-    margin-left: 10px;
+.shopcard {
+    background-color: #d9d9d9;
+    flex:1 1 auto;
+    padding:var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+    color:var(--bs-card-color)
 }
