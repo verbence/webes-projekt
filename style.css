@@ -48,3 +48,16 @@
     padding:var(--bs-card-spacer-y) var(--bs-card-spacer-x);
     color:var(--bs-card-color)
 }
+.h1{
+    text-align: center;
+}
+#fooldalkep{
+    float: right;
+    width: 500px;
+    margin-left: 10px;
+}
+#faanyagkartya{
+    float: right;
+    width: 500px;
+    margin-left: 10px;
+}
