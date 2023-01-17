@@ -1,50 +1,175 @@
 <!DOCTYPE html>
 <html lang="hu">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./BS/css/bootstrap.min.css">
-    <title>Faárúház</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Szerszámkatalógus</title>
+  <link rel="stylesheet" href="./style.css"> 
+  <link rel="stylesheet" href="./BS/css/bootstrap.min.css">
 </head>
 <body>
-    <nav class="navbar bg-body-tertiary"> <!--Beginning of Navbar-->
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">Főoldal</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" id="navbarbutton">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-            <div class="offcanvas-body">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="index.html">Főoldal</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="szerszamkatalogus.html">Szerszámkatalógus</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="faanyagok.html">Faanyagok</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="festekek.html">Festékek</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="blog.html">Blog</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="rolunk.html">Rólunk</a>
-                </li>
-              </ul>
-              <form class="d-flex mt-3" role="search">
-                <input class="form-control me-2" type="search" placeholder="Keresés" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Keresés</button>
-              </form>
-            </div>
+  <nav class="navbar bg-body-tertiary"> <!--Beginning of Navbar-->
+    <div class="container-fluid">
+      <a class="navbar-brand mx-auto" href="index.html">Szerszámkatalógus</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" id="navbarbutton">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./index.html">Főoldal</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./szerszamkatalogus.html">Szerszámkatalógus</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./faanyagok.html">Faanyagok</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./festekek.html">Festékek</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./rolunk.html">Rólunk</a>
+            </li>
+          </ul>
+          <form class="d-flex mt-3" role="search">
+            <input class="form-control me-2" type="search" placeholder="Keresés" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Keresés</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </nav> <!--End of Navbar-->
+  <div id="toppadder" class="container-fluid"> <!--Beginning of Cards-->
+    <div class="row">
+      <div class="col-sm-4 d-flex justify-content-center">
+        <div class="card">
+          <img class="card-img-top szerszamkep" src="./img/furo.png">
+          <div class="card-body shopcard">
+            <h5 class="card-title">Fúrógép</h5>
+            <p class="listitem">Márka: Ackita</p>
+            <ul>
+              <li>
+                <p class="listitem">3000 W</p>
+              </li>
+              <li>
+                <p class="listitem">4690 RPM</p>
+              </li>
+            </ul>
+            <p class="d-inline-block align-left cardtexttop">22900 ft./db</p>
+            <a href="#" class="btn btn-primary float-end">Vásárlás</a>
           </div>
         </div>
-      </nav> <!--End of Navbar-->
-      <script src="./BS/js/bootstrap.min.js"></script>
+      </div>
+      <div class="col-sm-4 d-flex justify-content-center">
+        <div class="card">
+          <img class="card-img-top szerszamkep" src="./img/kalapacs.png">
+          <div class="card-body shopcard">
+            <h5 class="card-title">Kalapács</h5>
+            <p class="listitem">Márka: Spot</p>
+            <ul>
+              <li>
+                <p class="listitem">Gumi fogó</p>
+              </li>
+              <li>
+                <p class="listitem">Erős ütés</p>
+              </li>
+            </ul>
+            <p class="d-inline-block align-left cardtexttop">1490 ft./db</p>
+            <a href="#" class="btn btn-primary float-end">Vásárlás</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 d-flex justify-content-center">
+        <div class="card">
+          <img class="card-img-top szerszamkep" src="./img/ecset.png">
+          <div class="card-body shopcard">
+            <h5 class="card-title">Ecset</h5>
+            <p class="listitem">Márka: Cottam</p>
+            <ul>
+              <li>
+                <p class="listitem">50mm szélesség</p>
+              </li>
+            </ul>
+            <br>
+            <p class="d-inline-block align-left cardtexttop">15990 ft./db</p>
+            <a href="#" class="btn btn-primary float-end">Vásárlás</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 d-flex justify-content-center">
+        <div class="card">
+          <img class="card-img-top szerszamkep" src="./img/festohenger.png">
+          <div class="card-body shopcard">
+            <h5 class="card-title">Festőhenger</h5>
+            <p class="listitem">Márka: Cobson</p>
+            <ul>
+              <li>
+                <p class="listitem">Rácscsal</p>
+              </li>
+              <li>
+                <p class="listitem">500ml festéktartály</p>
+              </li>
+            </ul>
+            <br>
+            <br>
+            <p class="d-inline-block align-left cardtexttop">39990 ft./db</p>
+            <a href="#" class="btn btn-primary float-end">Vásárlás</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 d-flex justify-content-center">
+        <div class="card">
+          <img class="card-img-top szerszamkep" src="./img/veso.png">
+          <div class="card-body shopcard">
+            <h5 class="card-title">Véső</h5>
+            <p class="listitem">Márka: Japcsi</p>
+            <ul>
+              <li>
+                <p class="listitem">Vésni tud</p>
+              </li>
+              <li>
+                <p class="listitem">3 féle véső</p>
+              </li>
+            </ul>
+            <br>
+            <br>
+            <p class="d-inline-block align-left cardtexttop">39990 ft./db</p>
+            <a href="#" class="btn btn-primary float-end">Vásárlás</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 d-flex justify-content-center">
+        <div class="card">
+          <img class="card-img-top szerszamkep" src="./img/radio.png">
+          <div class="card-body shopcard">
+            <h5 class="card-title">Rádió</h5>
+            <p class="listitem">Márka: BOSCH</p>
+            <ul>
+              <li>
+                <p class="listitem">Zenekérési lehetőség</p>
+              </li>
+              <li>
+                <p class="listitem">Ad ki hangot</p>
+              </li>
+              <li>
+                <p class="listitem">Van rajta konnektor</p>
+              </li>
+              <li>
+                <p class="listitem">40 W</p>
+              </li>
+            </ul>
+            <p class="d-inline-block align-left cardtexttop">129990 ft./db</p>
+            <a href="#" class="btn btn-primary float-end">Vásárlás</a>
+          </div>
+        </div>
+      </div>
+  </div> <!--End of Cards-->
+  <script src="./BS/js/bootstrap.min.js"></script>
 </body>
 </html>
