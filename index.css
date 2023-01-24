@@ -1,0 +1,36 @@
+#navbarbutton {
+    background-color: #656565;
+}
+.navbar-brand {
+    text-align: center;
+}
+
+.h1{
+    text-align: center;
+}
+#fooldalkep{
+    float: right;
+    height: 300px;
+    margin-left: 10px;
+
+}
+#faanyag{
+    left: 40px;
+    border-radius: 30px;
+}
+#kepek{
+    border-radius: 30px;
+    height: 200px;
+}
+
+#h1{
+    font-weight: 600px;
+}
+
+.tertalom_index{
+    font-size: 18px;
+}
+
+.h2{
+    font-weight: 500px;
+}
