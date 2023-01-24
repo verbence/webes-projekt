@@ -1,0 +1,61 @@
+#navbarbutton {
+    background-color: #656565;
+}
+.picture_style {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.obj_center {
+    text-align: center;
+}
+.card {
+    width: 20rem;
+}
+#toppadder {
+    padding-top: 75px;
+}
+#toppadder {
+    padding-top: 25px;
+}
+.justify-content-center {
+    padding-top: 25px;
+}
+.h2{
+    text-align: center;
+}
+#offcanvasNavbar {
+    max-height: 629px;
+}
+.justify-content-center {
+    padding-top: 25px;
+}
+.navbar-brand {
+    text-align: center;
+}
+.listitem {
+    margin-bottom: 0px;
+    font-weight: 400;
+}
+.cardtexttop {
+    margin-bottom: 0px;
+    margin-top: 7px;
+}
+.shopcard {
+    background-color: #d9d9d9;
+    flex:1 1 auto;
+    padding:var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+    color:var(--bs-card-color)
+}
+.h1{
+    text-align: center;
+}
+.szerszamkep {
+    height: 218px;
+    width: 223.906px;
+}
+#kepek{
+    border-radius: 30px;
+    height: 200px;
+}
