@@ -45,8 +45,20 @@
     border-radius: 20px;
 }
 
+.card {
+    --bs-border-radius: 1.3rem;
+}
+
+
 @media only screen and (min-width: 768px) {
     .szoveg{
-        margin-right: 250px;
+        margin-right: 250px;    
     }
+}
+
+@media only screen and (max-width: 540px) {
+    .szoveg{
+        margin-top: 190px;
+    }
+
 }

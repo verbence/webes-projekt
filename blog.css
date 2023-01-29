@@ -1,0 +1,22 @@
+.h1 {
+    text-align: center;
+}
+
+img {
+    float: right;
+    width: 25%;
+}
+
+.card {
+    margin-bottom: 2%;
+}
+
+.text{
+    font-size: larger;
+}
+
+#kep{
+    float: right ;
+    border-radius: 15px;
+
+}
