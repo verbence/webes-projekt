@@ -60,6 +60,22 @@
     height: 218px;
     width: 223.906px;
 }
+#faanyag{
+    left: 40px;
+    border-radius: 30px;
+}
+#kepek{
+    border-radius: 30px;
+    height: 200px;
+}
+#faanyagkartya{
+    float: right;
+    width: 500px;
+    margin-left: 10px;
+    right: 40px;
+    border-radius: 30px;
+}
+
 
 
 
