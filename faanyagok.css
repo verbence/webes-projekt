@@ -1,0 +1,37 @@
+#navbarbutton {
+    background-color: #656565;
+}
+.picture_style {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.obj_center {
+    text-align: center;
+}
+#toppadder {
+    padding-top: 75px;
+}
+#toppadder {
+    padding-top: 25px;
+}
+.justify-content-center {
+    padding-top: 25px;
+}
+#offcanvasNavbar {
+    max-height: 629px;
+}
+.navbar-brand {
+    text-align: center;
+}
+#kepek{
+    border-radius: 30px;
+    height: 200px;
+}
+.margintopper {
+    margin-top: 50px;
+}
+.floater {
+    float: right;
+}
