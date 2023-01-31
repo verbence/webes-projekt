@@ -20,3 +20,12 @@ img {
     border-radius: 15px;
 
 }
+
+#kep_jobb{
+    float: right;
+}
+
+.tartalom{
+    margin-left: 50px;
+    margin-right: 50px;
+}
