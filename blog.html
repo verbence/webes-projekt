@@ -7,6 +7,7 @@
     <title>Blog</title>
     <link rel="stylesheet" href="./BS/css/bootstrap.min.css">
     <link rel="stylesheet" href="./blog.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
   <nav class="navbar bg-body-tertiary"> <!--Beginning of Navbar-->
@@ -18,6 +19,7 @@
       <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
         <div class="offcanvas-body">
           <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <button type="button" class="btn-close" aria-label="Close"></button>
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="index.html">Főoldal</a>
             </li>
@@ -46,42 +48,48 @@
     </div>
   </nav> <!--End of Navbar-->
   <br>
-<p class="h1">Blog</p>
-<br>
-<div class="card">
-  <div class="card-body">
-    <img id="kep" src="./img/blog.jpg" alt="blog">
-    <h2>Megnyilt boltunk!</h2>
-    <p class="text">
-      Megnyílt boltunk! <br> 
-      Várunk mindenkit a Kunhegyes, Lehel u. 27 címen! <br>
-      Nyitvatartásunk: <br>
-          H: 08:00-19:00 <br>
-          K: 08:00-19:00 <br>
-        SZ: 08:00-19:00 <br>
-        CS: 08:00-19:00 <br>
-          P: 08:00-19:00 <br>
-      SZ-V: 08:00-12:00 <br>
-    </p>
-  </div>
-</div>
-<div class="card">
-  <div class="card-body">
-    <h2>Készülődünk a nyitáshoz!</h2>
-    <p class="text">
-      Készülődünk az első nyitáshoz! <br>
-      Üzletünket a Kunhegyes, Lehel u. 27 címen talalhatják!
-    </p>
-  </div>
-</div>
-<div class="card">
-  <div class="card-body">
-    <img id="kep" src="./img/blog.jpg" alt="blog">  
-    <h2>Építkezés</h2>
-    <p class="text">
-      A bolt épül, kérjük türelmüket!
-    </p>
-  </div>
+
+<div class="tartalom">
+        <p class="h1">Blog</p>
+      <br>
+      <div id="kep_jobb" class="card col-md-3" style="width: 18rem;">
+        <img src="./img/blog.jpg" class="card-img-top" alt="blog1">
+      </div>
+      <div class="card col-md-9">
+          <h2>Megnyilt boltunk!</h2>
+          <p class="text">
+            Megnyílt boltunk! <br> 
+            Várunk mindenkit a Kunhegyes, Lehel u. 27 címen! <br>
+            Nyitvatartásunk: <br>
+                H: 08:00-19:00 <br>
+                K: 08:00-19:00 <br>
+              SZ: 08:00-19:00 <br>
+              CS: 08:00-19:00 <br>
+                P: 08:00-19:00 <br>
+            SZ-V: 08:00-12:00 <br>
+          </p>
+        </div>
+      <div class="card">
+        <div class="card-body">
+          <h2>Készülődünk a nyitáshoz!</h2>
+          <p class="text">
+            Készülődünk az első nyitáshoz! <br>
+            Üzletünket a Kunhegyes, Lehel u. 27 címen talalhatják!
+          </p>
+        </div>
+      </div>
+      <div id="kep_jobb" class="card col-md-3" style="width: 18rem;">
+        <img src="./img/blog.jpg" class="card-img-top" alt="blog1">
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <h2>Építkezés</h2>
+          <p class="text">
+            A bolt épül, kérjük türelmüket!
+          </p>
+        </div>
+      </div>
+
 </div>
     <script src="./BS/js/bootstrap.min.js"></script>
 </body>
