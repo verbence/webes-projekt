@@ -1,8 +1,18 @@
 #navbarbutton {
     background-color: #656565;
-
 }
-.kepek{
+.kepek {
     width: 400px;
     height: 350px;
+    max-width: 400px;
+    max-height: 350px;
+}
+.padder {
+    padding-top: 15px;
+}
+.card {
+    width: 25rem;
+}
+.centerer {
+    text-align: center;
 }
